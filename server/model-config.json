@@ -38,5 +38,9 @@
   "stockModel": {
     "dataSource": "db",
     "public": true
+  },
+  "allStocks": {
+    "dataSource": "db",
+    "public": true
   }
 }
