@@ -1,0 +1,30 @@
+{
+  "name": "collections",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "default": "names"
+    },
+    "funds": {
+      "type": "string",
+      "default": "thisfunds"
+    },
+    "portfolio": {
+      "type": "string",
+      "default": "thisportfolio"
+    },
+    "date": {
+      "type": "string",
+      "default": "thisdate"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
