@@ -42,5 +42,9 @@
   "allStocks": {
     "dataSource": "db",
     "public": true
+  },
+  "portofolios": {
+    "dataSource": "db",
+    "public": true
   }
 }

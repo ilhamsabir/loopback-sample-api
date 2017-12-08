@@ -1,0 +1,26 @@
+{
+  "name": "portofolios",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "stockId": {
+      "type": "string",
+      "default": "0"
+    },
+    "stockPrice": {
+      "type": "string",
+      "default": "100"
+    },
+    "quantity": {
+      "type": "string",
+      "default": "0"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
